@@ -19,7 +19,7 @@ export function StudentDetail({ studentId }: StudentDetailProps) {
 
 	return (
 		<div>
-			Name: {data?.name || '--'} <button onClick={handleMutateClick}>mutate</button>
+			Name: {data?.title || '--'} <button onClick={handleMutateClick}>mutate</button>
 		</div>
 	)
 }

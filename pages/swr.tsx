@@ -16,7 +16,7 @@ export default function SWRPage() {
 			<ul>
 				{detailList.map((x, index) => (
 					<li key={index}>
-						<StudentDetail studentId="sktwi1cgkkuif36f3" />
+						<StudentDetail studentId="sktwi1cgkkuif36dt" />
 					</li>
 				))}
 			</ul>
